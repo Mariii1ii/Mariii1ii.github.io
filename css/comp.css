@@ -1,0 +1,163 @@
+.muteClass .soundBtn{
+    display:none;
+}
+
+.persongallery.noBG .scroller .el p {
+ color: #f6f2e7;
+}
+
+.personaLine {
+    font-size: 1.6rem;
+    color: #448C8D;
+    padding-top: 8px;
+}
+
+.m.abdelsCloud .l, .m.abdelsCloud .r {
+    vertical-align: middle;
+}
+
+.wordcloud.abdelsCloud .l {
+    width: 66.666%;
+}
+
+.wordcloud.abdelsCloud .r {
+    width: 33.333%;
+}
+
+.wordcloud.abdelsCloud .l span {
+    padding-right: 50px;
+    color: #f6f2e7;
+}
+
+.abdelsCloud.personintro .r h1, .abdelsDetails h1 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+    .abdelsCloud.personintro .r h1 .notbold, .abdelsDetails h1 .notbold {
+        font-weight: normal;
+        padding-top:5px;
+        display:block;
+    }
+
+.show1000{
+    display:none;
+}
+
+.noBG{
+    background-color:transparent !important;
+}
+
+.process .videoarea.smallerVideo .lazy {
+    width: calc((100vh - 60px) * .6);
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.sowFromTablet{
+    display:none;
+}
+
+
+.nomStyle {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    z-index: 999;
+}
+
+.nomStyle img{
+    max-width:100%;
+}
+
+/*
+#module-id-1664 iframe, #module-id-1815 iframe {
+    height: 54% !important;
+}*/
+
+#module-id-1664 .videoplayer .rel, #module-id-1815 .videoplayer .rel {
+    background-color: transparent;
+}
+
+.mobileBreak{
+    display: none;
+}
+
+@media (max-width:1000.5px){
+
+    .show1000 {
+        display: block;
+    }
+
+    .hide1000{
+        display:none;
+    }
+
+    .wordcloud.abdelsCloud .l {
+        display: block;
+        padding-top: 100px;
+    }
+
+    .wordcloud.abdelsCloud .r {
+        display: block;
+    }
+
+    .wordcloud.abdelsCloud .l span:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .abdelsCloud.personintro .r h1 {
+        padding-top: 30px;
+    }
+
+    .wordcloud.abdelsCloud .l {
+        width: 100%;
+    }
+
+    .wordcloud.abdelsCloud .r {
+        width: 100%;
+    }
+}
+
+@media (max-width:991.5px) {
+    .sowFromTablet {
+        display: block;
+    }
+
+    .hideFromTablet{
+        display:none;
+    }
+
+    #module-id-1089, #module-id-1739 {
+        display: none;
+    }
+}
+
+@media (max-width:767.5px) {
+    /*#module-id-1664 .videoplayer .rel, #module-id-1815 .videoplayer .rel {
+        padding-top: 70.25% !important;
+    }
+
+    #module-id-1664 iframe, #module-id-1815 iframe{
+        height: 69% !important;
+    }*/
+    .mobileBreak{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:767.5px) and (max-width:1000.5px){
+    #module-id-1741 .pIsStrange {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1000.5px){
+    #module-id-1741 .pIsStrange {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
